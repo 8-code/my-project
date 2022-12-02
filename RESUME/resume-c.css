@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+ 
+ h2{
+   border-radius: 11px;
+   text-align: center;
+   color: white;
+   padding: 4px;
+   background-color: rgb(30 31 32 / 88%);
+   display: block;
+   font-size: 1.5em;
+   font-weight: bold;
+ }
+form{
+    color:rgb(238, 224, 69);
+
+ }
+
+td{
+   padding: 13px;
+   border-radius: 22px;
+   background-color: rgb(32, 113, 227);
+} 
+.eco{
+   padding: 20px;
+   color:black;
+   background-color: #d980135e;
+}
+table{
+   padding:0px;
+   padding-left: 13px;
+   padding-right: 13px;
+   width: 100%;
+}
