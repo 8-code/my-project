@@ -1,0 +1,86 @@
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+
+}
+.bdy {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+}
+.container {
+
+    width: 500px;
+    height: fit-content;
+    font-size: 18px;
+    padding: 41px;
+    border-radius: 13px;
+    color:rgb(191, 255, 0);
+    backdrop-filter: blur(55px);
+}
+.heading{
+    text-align: center;
+}
+.input {
+    margin-bottom: 23px;
+}
+.input-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+input{
+
+    width:90%;
+
+    border: 0px;
+    outline: none;
+    color:rgb(175, 174, 180);
+    font-size:15px;
+    background-color: transparent;
+
+}
+input::placeholder{
+    font-size:13px;
+    color:rgb(175, 167, 167);
+}
+hr{
+    border:1px solid rgb(10, 10, 10);
+}
+.reset{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:4px;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+.link:hover{
+    color:rgb(150, 9, 9);
+    text-decoration: underline;
+    
+}
+.link-text{
+    font-size: 14px;
+}
+.submit{
+    margin-top: 34px;
+    text-align: center;
+}
+.login{
+    font-size: 12px;
+    padding:9px;
+    color:rgb(10, 9, 10);
+    border-radius:14px;
+    background-color: rgb(227, 224, 234,0.4);
+}
+.login:hover{
+    font-size: 15px;
+    padding:px;
+    color:rgb(224, 210, 227);
+    border-radius:14px;
+    background-color: rgb(10, 7, 20);
+}
